@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.site-header{
+    background-color: #262626;
+    width: 100%;
+}
+.site-header .main-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo-link img{
+    width: 86px;
+    height: 71px;
+}
+img{
+    display: block;
+}
+.logo-link {
+    font-weight: 700;
+    color: #111;
+}
+.col-full{
+    max-width: 75%;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 2.61em;
+}
+
+.search-product form input[type=search]{
+    position: relative;
+    padding-left: 40px;
+    border-radius: 4px;
+    border: none;
+    clear: both;
+    font-size: 16px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 5%);
+    width: 730px;
+    height: 46px;
+    outline: none;
+    color: #222;
+}
+/* .site-header .secondary-navigation{
+    float: right;
+    width: auto;
+    margin-left: auto;
+    padding-left: 1.2rem;
+} */
+.secondary-navigation ul{
+    display: block;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+    margin-top: 60px;
+}
+.secondary-navigation ul li{
+    display: inline-block;
+    position: relative;
+    margin-right: 1px;
+    text-align: left;
+}
+/* .secondary-navigation .menu-item{
+    border-left: 1px solid #ffffff !important;
+} */
+.secondary-navigation .ri.menu-item:first-child{
+    border: 0 !important;
+}
+.secondary-navigation .icon-wrapper{
+    position: absolute;
+    left: 50%;
+    top: -50px;   
+    transform: translate(-50%);
+}
+.secondary-navigation .icon-wrapper svg{
+    width: 28px;
+    height: 28px;
+    margin-top: 10px;
+}
+a{
+    padding: .7em .875em 0;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.col-full-nav{
+    background-color: #262626;
+}
+.main-navigation ul{
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+.main-navigation ul li{
+    display: inline-block;
+    position: relative;
+    margin-right: 1px;
+    text-align: left;
+}
+.shoptimizer-primary-navigation{
+    display: flex;
+}
+.menu-primary-menu-container>ul>li>a{
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+.menu-primary-menu-container > ul > li > a, 
+.site-header-cart .cart-contents{
+    font-family: sans-serif;
+    font-size: 18px;
+    letter-spacing: 0px;
+}
+.menu-primary-menu-container > ul > li > a, 
+.site-header-cart, 
+.logo-mark{
+    line-height: 40px;
+}
