@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <title>Document</title>
 </head>
 <body>
@@ -67,6 +68,51 @@
                 </li>
             </ul>
         </div>
-    </div>  
+    </div>
+    <div class="main-web">
+        <div class="slide-show-img">
+            <div>
+                <img src="https://saigonruou.com/img_data/images/809788710016_Jagermeilter-saigonruou1.jpg" alt="">
+            </div>
+            <div>
+                <img src="https://cdn.tgdd.vn/Files/2022/08/02/1452597/ruou-jagermeister-la-gi-cach-phan-biet-ruou-jagermeister-that-gia-202208021003452432.jpg" alt="">
+            </div>
+            <div>
+                <img src="http://cdn.tgdd.vn/Files/2022/08/02/1452597/ruou-jagermeister-la-gi-cach-phan-biet-ruou-jagermeister-that-gia-202208020955367208.jpg" alt="">
+            </div>
+        </div>
+        <div class="main-product">
+            <div class="content">
+                <div class="content-wrap">
+                    <h1>JAGERMEISTER™ Việt Nam - Đơn vị #1 cung cấp rượu JAGERMEISTER tại Việt Nam</h1>
+                </div>
+                <div class="extra-content">
+                    <p>
+                        <span>Đại lý nhập khẩu #1 của JAGERMEISTER. JAGERMEISTER Việt Nam là đơn vị kinh doanh rượu Jagermeister chính hãng hàng đầu tại Việt Nam với cam kết giá tốt nhất.</span>
+                    </p>
+                </div>
+            </div>
+            <div class="sale-product">
+                <div class="product-content">
+                    <h1>Sản phẩm bán chạy</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer></footer>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slide-show-img').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                arrows: false
+            });
+        });
+    </script>
 </body>
 </html>
