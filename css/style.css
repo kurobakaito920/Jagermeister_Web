@@ -1,9 +1,14 @@
+/* ###### RESET MARGIN PADDING CỦA WED ######## */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+
+/* ======== HEADER ======== */
 
 .site-header {
     background-color: #262626;
@@ -20,6 +25,7 @@
 .logo-link img {
     width: 86px;
     height: 71px;
+    margin: auto;
 }
 
 img {
@@ -98,7 +104,8 @@ img {
     margin-top: 10px;
 }
 
-a {
+#menu-item-1140 a,
+#menu-item-6617 a {
     padding: .7em .875em 0;
     font-size: 18px;
     text-align: center;
@@ -106,8 +113,16 @@ a {
     color: white;
 }
 
+
+/* ======== LÀM LIST MENU ========= */
+
 .col-full-nav {
     background-color: #262626;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .main-navigation ul {
@@ -145,6 +160,9 @@ a {
     line-height: 40px;
 }
 
+
+/* =========== LÀM SLIDESHOW =========== */
+
 .slide-show-img {
     margin: 10px;
 }
@@ -154,6 +172,9 @@ a {
     width: 100%;
     height: 48rem;
 }
+
+
+/* ============ SHOW SẢN PHẨM MỚI VÀ SẢN PHẨM NỔI BẬT =============*/
 
 .main-product {
     margin-right: auto;
@@ -183,11 +204,91 @@ a {
     font-size: 20px;
 }
 
+.product-content {
+    padding: 20px 0;
+}
+
 .product .product-image img {
     width: 235px;
     height: 235px;
 }
 
+.sale-product {
+    margin: 0 25rem;
+}
+
+.name-product {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price-product {
+    font-weight: bold;
+    color: #E86608;
+    font-size: 18px;
+}
+
 .product-list {
     display: grid;
+    column-gap: 20px;
+    row-gap: 25px;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+/* ============== PHẦN FOOTER ============== */
+
+footer.footer {
+    background-color: #002300;
+    color: #ffffff;
+}
+
+footer.footer {
+    padding: 4rem 0;
+}
+
+footer.footer p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+footer {
+    clear: both;
+    margin-top: 40px;
+}
+
+.col-ful {
+    max-width: 116em;
+}
+
+footer .col-ful {
+    display: flex;
+    padding-left: calc(5.61em + 20px);
+    padding-right: calc(5.61em + 10px);
+}
+
+footer .widget {
+    position: relative;
+    margin: 0;
+    padding: 0 26px;
+    flex: 1;
+}
+
+footer .widget li {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+
+.widget ul {
+    margin-left: 0;
+    list-style: none;
+}
+
+.widget-title {
+    color: #f0c28e;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
+    font-weight: 600;
 }
