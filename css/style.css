@@ -315,7 +315,7 @@ footer .widget {
 }
 
 footer .widget li {
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5;
     margin-bottom: 5px;
 }
@@ -332,7 +332,7 @@ footer .widget li {
 
 .widget-title {
     color: #f0c28e;
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 15px;
     font-family: sans-serif;
     font-weight: 600;
